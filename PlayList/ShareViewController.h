@@ -1,5 +1,5 @@
 //
-//  IconView.h
+//  ShareViewController.h
 //  PlayList
 //
 //  Created by 甄翰宏 on 2016/11/3.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IconView : UIView
-@property(nonatomic, strong)UIButton *iconButton;
-@property(nonatomic, strong)UIImage *image;
+@interface ShareViewController : UIViewController
+
 @end
